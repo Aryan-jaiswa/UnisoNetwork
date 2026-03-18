@@ -36,24 +36,7 @@ UnisoNetwork is a modern, full-stack social networking platform designed for uni
 
 ## 🏛️ Architecture
 
-```mermaid
-graph TD
-    subgraph "User"
-        A[Browser]
-    end
-
-    subgraph "Cloud Infrastructure"
-        B[Frontend (React, Vite)]
-        C[Backend (Node.js, Express)]
-        D[SQL Database]
-        E[Notification Services <br/>(SMS, Email)]
-    end
-
-    A -- HTTPS --> B
-    B -- API Calls --> C
-    C -- Drizzle ORM --> D
-    C -- API Calls --> E
-```
+<img width="855" height="793" alt="Screenshot 2026-03-18 234322" src="https://github.com/user-attachments/assets/74df7539-2101-4e3b-904b-43dde257e94a" />
 
 ## 🚀 Getting Started
 
